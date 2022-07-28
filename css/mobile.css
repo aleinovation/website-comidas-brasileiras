@@ -1,0 +1,31 @@
+@media (max-width: 576px) {
+    nav {
+        height: fit-content;
+    }
+
+    nav ul.nav-menu {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav .row > div, nav .container-fluid {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) { 
+    section.comidas-tipicas {
+        background-position-x: center;
+    }
+
+    footer .footer-icons {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1400px) {}

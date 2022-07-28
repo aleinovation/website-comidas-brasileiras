@@ -1,64 +1,307 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BR Food</title>
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
 
+    <nav>
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-8 col-sm-12">
+                    <ul class="nav-menu">
+                        <li>
+                            <a href="#">Início</a>
+                        </li>
+                        <li>
+                            <a href="#">Principais receitas</a>
+                        </li>
+                        <li>
+                            <a href="#">Comidas típicas</a>
+                        </li>
+                        <li>
+                            <a href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <header>
-        <div class="box-header">
-            <h1>A comida brasileira</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="box-header">
+                        <h1>A comida brasileira</h1>
 
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pretium, nisi id rutrum euismod, tellus tortor fermentum sem, id malesuada ipsum ligula sit amet leo. Vivamus sit amet pulvinar sapien.
-            </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pretium, nisi id rutrum
+                            euismod, tellus tortor fermentum sem, id malesuada ipsum ligula sit amet leo. Vivamus sit
+                            amet pulvinar sapien.
+                        </p>
 
-            <a href="#">Saiba mais</a>
+                        <a href="#" class="btn">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
     <main>
         <section class="receitas">
-            <div>
-                <h2>Principais receitas brasileiras</h2>
+            <div class="container">
+                <div class="row">
+                    <h2 class="receitas-title">Principais receitas brasileiras</h2>
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla urna non odio pellentesque, eu feugiat orci facilisis. Cras egestas accumsan lorem et vestibulum.
-                </p>
+                    <div class="col-md-4 receitas-box">
+                        <div class="row justify-content-center">
+                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.001 512.001"
+                                style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M427.75,211.068H173.122c-0.199,0.88-0.392,1.758-0.602,2.641c10.319,2.569,19.932,7.286,28.007,13.829
+			c0.153,0.124,0.295,0.257,0.447,0.381c1.648,1.36,3.239,2.786,4.748,4.296l11.548,11.548c0.328,0.328,0.639,0.673,0.96,1.005
+			c9.125,9.512,15.41,21.638,18.178,34.927c0.242,0.258,0.49,0.513,0.728,0.774c16.493-4.083,32.61-6.211,47.591-6.211
+			c17.207,0,32.427,2.776,45.237,8.252c16.856,7.204,29.218,18.995,35.751,34.101c6.159,14.244,6.617,30.356,1.327,46.6
+			c-4.061,12.467-11.446,24.911-21.949,36.99c-11.142,12.816-25.598,24.904-42.243,35.531c-9.644,6.158-20.013,11.83-30.926,16.85
+			c-1.724,0.794-3.463,1.569-5.213,2.33c-1.874,3.483-4.081,6.795-6.648,9.862c-1.373,1.639-2.832,3.19-4.363,4.658h127.119
+			c8.032,0,14.948-5.669,16.523-13.545l15.264-76.319h13.146c46.455,0,84.25-37.795,84.25-84.25
+			C512,248.862,474.207,211.068,427.75,211.068z M427.75,345.867h-6.406l19.855-99.268c21.365,5.905,37.101,25.502,37.101,48.719
+			C478.3,323.191,455.625,345.867,427.75,345.867z" />
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M259.931,114.905c-8.262-8.261-11.914-12.313-11.913-21.782c0-9.474,3.653-13.524,11.915-21.784
+			c6.583-6.579,6.586-17.249,0.007-23.83c-6.579-6.583-17.248-6.584-23.829-0.006c-9.198,9.192-21.792,21.781-21.792,45.617
+			c-0.001,23.829,12.59,36.421,21.785,45.614c8.262,8.261,11.915,12.314,11.915,21.786c0,9.307,7.544,16.85,16.85,16.85
+			c9.306,0,16.85-7.543,16.85-16.85C281.718,136.69,269.125,124.098,259.931,114.905z" />
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M349.797,114.905c-8.261-8.261-11.914-12.313-11.913-21.782c0-9.474,3.653-13.524,11.916-21.784
+			c6.582-6.579,6.585-17.249,0.006-23.83c-6.579-6.583-17.248-6.584-23.829-0.006c-9.198,9.192-21.793,21.781-21.793,45.617
+			c-0.001,23.829,12.59,36.421,21.785,45.614c8.262,8.261,11.915,12.314,11.915,21.786c0,9.307,7.544,16.85,16.85,16.85
+			c9.306,0,16.85-7.543,16.85-16.85C371.584,136.69,358.992,124.098,349.797,114.905z" />
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M334.782,329.986c-6.314-14.599-25.172-22.027-50.057-22.027c-9.444,0-19.759,1.075-30.584,3.228
+			c0.501,1.87,0.947,3.755,1.287,5.659l17.458,97.534C318.198,389.392,345.158,353.982,334.782,329.986z" />
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M239.743,420.465l-14.931-83.42l-0.219,0.308l-13.829,19.375l-13.829,19.375l-7.475,10.472l-45.278,63.435
+			c-0.629,0.881-1.284,1.731-1.947,2.571h53.776h16.85c0.926,0,1.833-0.047,2.727-0.122c7.041-0.594,13.033-3.48,17.345-7.905
+			c2.435-2.497,4.342-5.48,5.594-8.821c0.758-2.025,1.269-4.187,1.524-6.441C240.371,426.483,240.291,423.524,239.743,420.465z" />
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M122.599,117.803c-3.462-1.497-7.166-2.217-11.036-2.217c-22.965,0-51.968,25.341-73.351,64.112l97.517,17.452
+			c1.905,0.341,3.794,0.774,5.664,1.276C149.213,159.079,142.734,126.51,122.599,117.803z" />
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M32.118,212.841c-1.894-0.339-3.752-0.502-5.555-0.502c-1.101,0-2.18,0.069-3.242,0.186
+			c-5.986,0.674-11.267,3.202-15.284,7.113c-4.428,4.311-7.321,10.3-7.918,17.34C0.043,237.877,0,238.789,0,239.722v65.199
+			l70.456-50.287l19.371-13.826l19.372-13.826l0.389-0.277L32.118,212.841z" />
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path d="M201.321,279.668c-2.754-6.823-7.797-11.93-12.854-17.09c-5.35-5.459-10.81-11.083-17.965-14.131
+			c-2.64-1.126-5.411-1.967-8.247-2.511c-9.658-1.854-21.745,0.1-29.997,5.992l-14.863,10.608L19.048,332.73
+			c-3.398,2.425-6.082,5.314-8.052,8.475c-3.135,5.022-4.447,10.736-3.874,16.401c0.609,6.022,3.346,11.986,8.289,16.998
+			c0.053,0.053,0.1,0.108,0.153,0.161l59.158,59.156c0.418,0.418,0.845,0.815,1.274,1.201c5.134,4.611,11.152,7.039,17.166,7.344
+			c0.435,0.022,0.868,0.033,1.303,0.033c0.522,0,1.045-0.017,1.567-0.047c0.64-0.039,1.279-0.103,1.914-0.191
+			c4.448-0.611,8.762-2.398,12.568-5.325c2.288-1.759,4.397-3.925,6.238-6.504l58.966-82.613l13.322-18.665
+			c5.418-7.59,11.703-14.817,13.998-24.061C205.106,296.751,204.543,287.647,201.321,279.668z" />
+                            </svg>
 
-                <figure>
-                    <img style="order: 2;" src="images/receitas/feijoada.jpg" alt="Feijoada" width="300">
-                    <img style="order: 1;" src="images/receitas/paodequeijo.jpg" alt="Pão de queijo" width="300">
-                    <img style="order: 3;" src="images/receitas/coxinha.jpg" alt="Coxinha" width="300">
-                </figure>
+                            <h3>Pão de queijo</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nesciunt nulla velit
+                                vitae quas inventore saepe tenetur neque consequuntur.</p>
+                        </div>
+                    </div>
 
-                <a href="pages/receitas.html" class="btnVejaMais">Veja mais receitas</a>
+                    <div class="col-md-4 receitas-box">
+                        <div class="row justify-content-center">
+                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60"
+                                style="enable-background:new 0 0 60 60;" xml:space="preserve">
+                                <g>
+                                    <path
+                                        d="M18.35,20.805c0.195,0.195,0.451,0.293,0.707,0.293c0.256,0,0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414
+		c-1.015-1.016-1.015-2.668,0-3.684c0.87-0.87,1.35-2.026,1.35-3.256s-0.479-2.386-1.35-3.256c-0.391-0.391-1.023-0.391-1.414,0
+		s-0.391,1.023,0,1.414c0.492,0.492,0.764,1.146,0.764,1.842s-0.271,1.35-0.764,1.842C16.555,16.088,16.555,19.01,18.35,20.805z" />
+                                    <path
+                                        d="M40.35,20.805c0.195,0.195,0.451,0.293,0.707,0.293c0.256,0,0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414
+		c-1.015-1.016-1.015-2.668,0-3.684c0.87-0.87,1.35-2.026,1.35-3.256s-0.479-2.386-1.35-3.256c-0.391-0.391-1.023-0.391-1.414,0
+		s-0.391,1.023,0,1.414c0.492,0.492,0.764,1.146,0.764,1.842s-0.271,1.35-0.764,1.842C38.555,16.088,38.555,19.01,40.35,20.805z" />
+                                    <path
+                                        d="M29.35,14.805c0.195,0.195,0.451,0.293,0.707,0.293c0.256,0,0.512-0.098,0.707-0.293c0.391-0.391,0.391-1.023,0-1.414
+		c-1.015-1.016-1.015-2.668,0-3.684c0.87-0.87,1.35-2.026,1.35-3.256s-0.479-2.386-1.35-3.256c-0.391-0.391-1.023-0.391-1.414,0
+		s-0.391,1.023,0,1.414c0.492,0.492,0.764,1.146,0.764,1.842s-0.271,1.35-0.764,1.842C27.555,10.088,27.555,13.01,29.35,14.805z" />
+                                    <path d="M55.624,43.721C53.812,33.08,45.517,24.625,34.957,22.577c0.017-0.16,0.043-0.321,0.043-0.48c0-2.757-2.243-5-5-5
+		s-5,2.243-5,5c0,0.159,0.025,0.32,0.043,0.48C14.483,24.625,6.188,33.08,4.376,43.721C2.286,44.904,0,46.645,0,48.598
+		c0,5.085,15.512,8.5,30,8.5s30-3.415,30-8.5C60,46.645,57.714,44.904,55.624,43.721z M27.006,22.27
+		C27.002,22.212,27,22.154,27,22.098c0-1.654,1.346-3,3-3s3,1.346,3,3c0,0.057-0.002,0.114-0.006,0.172
+		c-0.047-0.005-0.094-0.007-0.14-0.012c-0.344-0.038-0.69-0.065-1.038-0.089c-0.128-0.009-0.255-0.022-0.383-0.029
+		c-0.474-0.026-0.951-0.041-1.432-0.041s-0.958,0.015-1.432,0.041c-0.128,0.007-0.255,0.02-0.383,0.029
+		c-0.348,0.024-0.694,0.052-1.038,0.089C27.1,22.263,27.053,22.264,27.006,22.27z M25.126,26.635
+		c1.582-0.356,3.217-0.537,4.86-0.537c0.004,0,0.009,0,0.014,0c0.552,0,1,0.448,1,1.001c0,0.552-0.448,0.999-1,0.999h0
+		c-0.004,0-0.009,0-0.013,0c-1.496,0-2.982,0.164-4.421,0.488c-0.074,0.017-0.148,0.024-0.221,0.024c-0.457,0-0.87-0.315-0.975-0.78
+		C24.249,27.291,24.587,26.756,25.126,26.635z M19.15,28.997c0.476-0.281,1.088-0.124,1.37,0.351
+		c0.282,0.476,0.125,1.089-0.351,1.37c-4.713,2.792-8.147,7.861-9.186,13.56c-0.088,0.482-0.509,0.82-0.983,0.82
+		c-0.06,0-0.12-0.005-0.18-0.017c-0.543-0.099-0.904-0.619-0.805-1.163C10.158,37.658,13.947,32.08,19.15,28.997z M30,55.098
+		c-17.096,0-28-4.269-28-6.5c0-0.383,0.474-1.227,2.064-2.328c-0.004,0.057-0.002,0.113-0.006,0.17C4.024,46.988,4,47.54,4,48.098
+		v0.788l0.767,0.185c8.254,1.981,16.744,2.985,25.233,2.985s16.979-1.004,25.233-2.985L56,48.886v-0.788
+		c0-0.558-0.024-1.109-0.058-1.658c-0.004-0.057-0.002-0.113-0.006-0.17C57.526,47.371,58,48.215,58,48.598
+		C58,50.829,47.096,55.098,30,55.098z" />
+                                </g>
+                            </svg>
+
+
+                            <h3>Feijoada</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nesciunt nulla velit
+                                vitae quas inventore saepe tenetur neque consequuntur.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 receitas-box">
+                        <div class="row justify-content-center">
+                            <svg class="receitas-icon--food" version="1.1" id="Layer_1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                y="0px" viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;"
+                                xml:space="preserve">
+                                <g>
+                                    <path d="M107.706,180.432c-24.545,5.656-47.851,18.04-66.974,37.164c-54.31,54.31-54.31,142.363,0,196.672
+		c54.31,54.31,142.363,54.31,196.672,0c19.124-19.124,31.508-42.429,37.164-66.974l28.757-124.755l-70.864-70.864L107.706,180.432z
+		 M101.113,372.062L79.9,350.849l28.284-28.284l21.213,21.213L101.113,372.062z M101.113,292.062L79.9,270.849l28.284-28.284
+		l21.213,21.213L101.113,292.062z" />
+                                    <path d="M421.399,69.819l-36.218,0V33.6c0-18.557-15.044-33.6-33.601-33.6c-18.557,0-33.601,15.043-33.601,33.6l0,45.822
+		l-57.672,57.672l57.598,57.598l57.671-57.672l45.822,0c18.557,0.001,33.601-15.043,33.601-33.6
+		C455,84.863,439.957,69.819,421.399,69.819z" />
+                                </g>
+                            </svg>
+
+
+                            <h3>Coxinha</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nesciunt nulla velit
+                                vitae quas inventore saepe tenetur neque consequuntur.</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
         <section class="comidas-tipicas">
-            <div>
-                <h2>Comidas típicas regionais</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="offset-md-7 col-md-4">
+                        <div class="row justify-content-center">
+                            <div class="comidas-box">
+                                <h2>Comidas típicas regionais</h2>
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla urna non odio pellentesque, eu feugiat orci facilisis. Cras egestas accumsan lorem et vestibulum.
-                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc fringilla urna non odio
+                                    pellentesque,
+                                    eu feugiat orci facilisis. Cras egestas accumsan lorem et vestibulum.
+                                </p>
 
-                <figure>
-                    <img src="images/locais/sao_paulo.jpg" alt="São Paulo" width="300" height="180">
-                    <img src="images/locais/goiania.jpg" alt="Goiânia" width="300" height="180">
-                    <img src="images/locais/porto_alegre.jpg" alt="Porto Alegre" width="300" height="180">
-                </figure>
+                                <p class="highlight">Lorem ipsum dolor sit amet.</p>
 
-                <a href="pages/comidasTipicas.html" class="btnVejaMais">Veja mais comidas típicas</a>
+                                <a href="#" class="btn btn-comidas">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h3 class="footer-title">Saiba mais</h3>
+                    <p class="footer-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    <p class="footer-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies odio sed efficitur fringilla. Duis dapibus metus quis interdum hendrerit. Duis molestie felis dolor, id ullamcorper nulla pretium ut.
+                    </p>
+
+                    <h4 class="footer-highlight">Páginas</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Receitas brasileiras</a></li>
+                        <li><a href="#">Comidas típicas</a></li>
+                    </ul>
+
+                    <figure class="footer-icons">
+                        <img src="images/icons/instagram.png" alt="Ícone do Instagram">
+                        <img src="images/icons/youtube.png" alt="Ícone do YouTube">
+                        <img src="images/icons/linkedin-logo.png" alt="Ícone do LinkedIn">
+                        <img src="images/icons/facebook.png" alt="Ícone do Facebook">
+                    </figure>
+                </div>
+
+                <div class="offset-md-2 col-md-5">
+                    <h3 class="footer-title">Entre em contato</h3>
+                    <p class="footer-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                    <form class="footer-form">
+                        <input type="text" id="nome" placeholder="Insira seu nome" required>
+                        <p class="form-obrigatorio form-obrigatorio--nome">Nome é obrigatório</p>
+                        <input type="email" id="email" placeholder="Insira seu e-mail">
+                        <textarea id="msg" rows="3" placeholder="Insira sua mensagem"></textarea>
+
+                        <button type="submit" class="btn btn-footer">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="container-fluid copy">
+        <div class="row justify-content-center">
+            <p class="copy-text">
+                Copywrite 2022. Todos os direitos reservados.
+            </p>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#nome").blur(function () {
+                let valorNome = $(this).val();
+
+                if (!valorNome) {
+                    $(".form-obrigatorio--nome").css("display", "block");
+                } else {
+                    $(".form-obrigatorio--nome").css("display", "none");
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>
